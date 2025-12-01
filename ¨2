@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Obkladač Ladislav Pidych | Obkladačské práce Olomouc</title>
+  <meta name="description" content="Profesionální obkladačské práce v Olomouci a okolí. Koupelny, kuchyně, terasy, dlažby. Kvalita, přesnost a férová kalkulace.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body{margin:0;font-family:Inter,sans-serif;background:#f7f7f7;color:#222}
+    header{background:#fff;border-bottom:1px solid #eee;position:sticky;top:0;z-index:10}
+    .wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+    .nav{display:flex;justify-content:space-between;align-items:center;height:64px}
+    .menu a{margin-left:20px;text-decoration:none;color:#222}
+    .hero{padding:80px 20px;background:linear-gradient(120deg,#fff,#eefaf6)}
+    .hero h1{font-size:36px;margin-bottom:10px}
+    .hero p{font-size:18px;color:#666;margin-bottom:24px}
+    .btn{background:#0a7;color:#fff;padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:600}
+    section{padding:60px 20px}
+    h2{font-size:28px;margin-bottom:16px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+    .card{background:#fff;border:1px solid #eee;border-radius:12px;padding:20px}
+    .card img{border-radius:8px;margin-bottom:10px}
+    .muted{color:#666}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    @media(max-width:800px){.about{grid-template-columns:1fr}.hero h1{font-size:30px}}
+    footer{padding:30px 20px;border-top:1px solid #eee;background:#fff;color:#666}
+    form{display:grid;gap:12px}
+    input,textarea{padding:10px;border:1px solid #ccc;border-radius:8px;font:inherit}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div><strong>Obkladač Ladislav Pidych</strong></div>
+    <nav class="menu">
+      <a href="#sluzby">Služby</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#o-mne">O mně</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <h1>Obkladačské práce v Olomouci a okolí</h1>
+      <p>Precizně, čistě a v termínu – koupelny, kuchyně, terasy i schody. Nezávazná kalkulace zdarma.</p>
+      <a class="btn" href="#kontakt">Chci kalkulaci</a>
+    </div>
+  </section>
+
+  <section id="sluzby">
+    <div class="wrap">
+      <h2>Služby</h2>
+      <div class="grid">
+        <div class="card"><h3>Pokládka obkladů a dlažby</h3><p class="muted">Keramika, gres, mozaika, velkoformátové desky – koupelny i kuchyně.</p></div>
+        <div class="card"><h3>Rekonstrukce koupelen</h3><p class="muted">Kompletní obklad, dlažba, spárování, koordinace prověřených profesí.</p></div>
+        <div class="card"><h3>Obklady kuchyní a zástěn</h3><p class="muted">Praktické řešení, snadné čištění a přesné napojení na pracovní desky.</p></div>
+        <div class="card"><h3>Venkovní práce a terasy</h3><p class="muted">Mrazuvzdorné dlažby, správné odvodnění, dilatace a protiskluz.</p></div>
+        <div class="card"><h3>Drobné opravy a servis</h3><p class="muted">Výměna prasklých dlaždic, doplnění spár, opravy detailů.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="galerie">
+    <div class="wrap">
+      <h2>Galerie</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="https://via.placeholder.com/400x300?text=Koupelna+Olomouc" alt="Koupelna Olomouc">
+          <p class="muted">Koupelna – Olomouc (2024)</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/400x300?text=Kuchyň+Prostějov" alt="Kuchyň Prostějov">
+          <p class="muted">Kuchyň – Prostějov (2023)</p>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/400x300?text=Terasa+Přerov" alt="Terasa Přerov">
+          <p class="muted">Terasa – Přerov (2023)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="o-mne">
+    <div class="wrap about">
+      <div>
+        <h2>O mně</h2>
+        <p>Jsem obkladač působící v Olomouci a okolí. Důraz na přesnost, čistotu a dlouhou trvanlivost. Každou zakázku beru osobně – od zaměření až po finální úklid.</p>
+        <ul>
+          <li>Působnost: Olomouc, Prostějov, Přerov, Šumperk</li>
+          <li>Termíny: dle rozsahu, obvykle 2–6 týdnů předem</li>
+        </ul>
+      </div>
+      <div>
+        <h2 id="kontakt">Kontakt</h2>
+        <form>
+          <input type="text" placeholder="Jméno" required>
+          <input type="email" placeholder="E‑mail" required>
+          <textarea rows="4" placeholder="Popis zakázky"></textarea>
+          <button class="btn" type="submit">Odeslat poptávku</button>
+        </form>
+        <p><strong>Telefon:</strong> +420 XXX XXX XXX<br>
+           <strong>E‑mail:</strong> ladislav@email.cz</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <small>© 2025 Obkladač Ladislav Pidych — kvalitní obkladačské práce</small>
+  </div>
+</footer>
+</body>
+</html>
